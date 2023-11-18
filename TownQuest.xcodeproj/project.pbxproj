@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F819A64C2B023E610016690C /* TownQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819A64B2B023E610016690C /* TownQuestApp.swift */; };
+		F819A64E2B023E610016690C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819A64D2B023E610016690C /* ContentView.swift */; };
+		F819A6502B023E640016690C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F819A64F2B023E640016690C /* Assets.xcassets */; };
+		F819A6532B023E640016690C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F819A6522B023E640016690C /* Preview Assets.xcassets */; };
+		F8840B142B02FEBE00C840B2 /* TownModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8840B132B02FEBE00C840B2 /* TownModel.swift */; };
+		F8840B162B03197A00C840B2 /* TownData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8840B152B03197A00C840B2 /* TownData.swift */; };
+		F8840B182B0338BA00C840B2 /* TownRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8840B172B0338BA00C840B2 /* TownRowView.swift */; };
+		F8840B1A2B033B2100C840B2 /* TownDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8840B192B033B2100C840B2 /* TownDetailView.swift */; };
+		F8840B1C2B03429400C840B2 /* TownHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8840B1B2B03429400C840B2 /* TownHeaderView.swift */; };
+		F8840B1E2B034D1C00C840B2 /* TownButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8840B1D2B034D1B00C840B2 /* TownButtonView.swift */; };
+		F8840B202B0352CF00C840B2 /* TownDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8840B1F2B0352CF00C840B2 /* TownDetailsView.swift */; };
+		F8840B222B03591700C840B2 /* TownTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8840B212B03591700C840B2 /* TownTabBar.swift */; };
+		F8840B242B036A5F00C840B2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8840B232B036A5F00C840B2 /* SettingsView.swift */; };
+		F8840B262B036E0300C840B2 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8840B252B036E0300C840B2 /* SettingsLabelView.swift */; };
+		F8840B282B03744F00C840B2 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8840B272B03744F00C840B2 /* SettingsRowView.swift */; };
+		F8840B2A2B03773300C840B2 /* TownResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8840B292B03773300C840B2 /* TownResourcesView.swift */; };
+		F8C6FF162B02407F00B18DEB /* TownCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C6FF152B02407E00B18DEB /* TownCardView.swift */; };
+		F8C6FF182B0243D600B18DEB /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C6FF172B0243D600B18DEB /* StartButtonView.swift */; };
+		F8C6FF1A2B0245F600B18DEB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C6FF192B0245F600B18DEB /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F819A6482B023E610016690C /* TownQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TownQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F819A64B2B023E610016690C /* TownQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownQuestApp.swift; sourceTree = "<group>"; };
+		F819A64D2B023E610016690C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F819A64F2B023E640016690C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F819A6522B023E640016690C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8840B132B02FEBE00C840B2 /* TownModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownModel.swift; sourceTree = "<group>"; };
+		F8840B152B03197A00C840B2 /* TownData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownData.swift; sourceTree = "<group>"; };
+		F8840B172B0338BA00C840B2 /* TownRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownRowView.swift; sourceTree = "<group>"; };
+		F8840B192B033B2100C840B2 /* TownDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownDetailView.swift; sourceTree = "<group>"; };
+		F8840B1B2B03429400C840B2 /* TownHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownHeaderView.swift; sourceTree = "<group>"; };
+		F8840B1D2B034D1B00C840B2 /* TownButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownButtonView.swift; sourceTree = "<group>"; };
+		F8840B1F2B0352CF00C840B2 /* TownDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownDetailsView.swift; sourceTree = "<group>"; };
+		F8840B212B03591700C840B2 /* TownTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownTabBar.swift; sourceTree = "<group>"; };
+		F8840B232B036A5F00C840B2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F8840B252B036E0300C840B2 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		F8840B272B03744F00C840B2 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		F8840B292B03773300C840B2 /* TownResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownResourcesView.swift; sourceTree = "<group>"; };
+		F8C6FF152B02407E00B18DEB /* TownCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownCardView.swift; sourceTree = "<group>"; };
+		F8C6FF172B0243D600B18DEB /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		F8C6FF192B0245F600B18DEB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F819A6452B023E610016690C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F819A63F2B023E600016690C = {
+			isa = PBXGroup;
+			children = (
+				F819A64A2B023E610016690C /* TownQuest */,
+				F819A6492B023E610016690C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F819A6492B023E610016690C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F819A6482B023E610016690C /* TownQuest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F819A64A2B023E610016690C /* TownQuest */ = {
+			isa = PBXGroup;
+			children = (
+				F8840B2F2B037DB900C840B2 /* TabBar1 */,
+				F8840B2E2B037D6200C840B2 /* TabBar2 */,
+				F8840B122B02FE9800C840B2 /* Data */,
+				F8840B112B02FE9300C840B2 /* Model */,
+				F819A65A2B023FBD0016690C /* Views */,
+				F819A6592B023F990016690C /* App */,
+				F819A64F2B023E640016690C /* Assets.xcassets */,
+				F819A6512B023E640016690C /* Preview Content */,
+			);
+			path = TownQuest;
+			sourceTree = "<group>";
+		};
+		F819A6512B023E640016690C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F819A6522B023E640016690C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F819A6592B023F990016690C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F819A64B2B023E610016690C /* TownQuestApp.swift */,
+				F819A64D2B023E610016690C /* ContentView.swift */,
+				F8840B232B036A5F00C840B2 /* SettingsView.swift */,
+				F8C6FF192B0245F600B18DEB /* OnboardingView.swift */,
+				F8840B212B03591700C840B2 /* TownTabBar.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F819A65A2B023FBD0016690C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6FF152B02407E00B18DEB /* TownCardView.swift */,
+				F8C6FF172B0243D600B18DEB /* StartButtonView.swift */,
+				F8840B172B0338BA00C840B2 /* TownRowView.swift */,
+				F8840B272B03744F00C840B2 /* SettingsRowView.swift */,
+				F8840B252B036E0300C840B2 /* SettingsLabelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8840B112B02FE9300C840B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8840B132B02FEBE00C840B2 /* TownModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8840B122B02FE9800C840B2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F8840B152B03197A00C840B2 /* TownData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F8840B2E2B037D6200C840B2 /* TabBar2 */ = {
+			isa = PBXGroup;
+			children = (
+				F8840B292B03773300C840B2 /* TownResourcesView.swift */,
+				F8840B1D2B034D1B00C840B2 /* TownButtonView.swift */,
+			);
+			path = TabBar2;
+			sourceTree = "<group>";
+		};
+		F8840B2F2B037DB900C840B2 /* TabBar1 */ = {
+			isa = PBXGroup;
+			children = (
+				F8840B1B2B03429400C840B2 /* TownHeaderView.swift */,
+				F8840B192B033B2100C840B2 /* TownDetailView.swift */,
+				F8840B1F2B0352CF00C840B2 /* TownDetailsView.swift */,
+			);
+			path = TabBar1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F819A6472B023E610016690C /* TownQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F819A6562B023E640016690C /* Build configuration list for PBXNativeTarget "TownQuest" */;
+			buildPhases = (
+				F819A6442B023E610016690C /* Sources */,
+				F819A6452B023E610016690C /* Frameworks */,
+				F819A6462B023E610016690C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TownQuest;
+			productName = TownQuest;
+			productReference = F819A6482B023E610016690C /* TownQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F819A6402B023E600016690C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F819A6472B023E610016690C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F819A6432B023E600016690C /* Build configuration list for PBXProject "TownQuest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F819A63F2B023E600016690C;
+			productRefGroup = F819A6492B023E610016690C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F819A6472B023E610016690C /* TownQuest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F819A6462B023E610016690C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F819A6532B023E640016690C /* Preview Assets.xcassets in Resources */,
+				F819A6502B023E640016690C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F819A6442B023E610016690C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C6FF162B02407F00B18DEB /* TownCardView.swift in Sources */,
+				F8C6FF182B0243D600B18DEB /* StartButtonView.swift in Sources */,
+				F8840B222B03591700C840B2 /* TownTabBar.swift in Sources */,
+				F819A64E2B023E610016690C /* ContentView.swift in Sources */,
+				F8840B282B03744F00C840B2 /* SettingsRowView.swift in Sources */,
+				F8840B1C2B03429400C840B2 /* TownHeaderView.swift in Sources */,
+				F8C6FF1A2B0245F600B18DEB /* OnboardingView.swift in Sources */,
+				F8840B202B0352CF00C840B2 /* TownDetailsView.swift in Sources */,
+				F8840B242B036A5F00C840B2 /* SettingsView.swift in Sources */,
+				F8840B162B03197A00C840B2 /* TownData.swift in Sources */,
+				F8840B1E2B034D1C00C840B2 /* TownButtonView.swift in Sources */,
+				F8840B1A2B033B2100C840B2 /* TownDetailView.swift in Sources */,
+				F819A64C2B023E610016690C /* TownQuestApp.swift in Sources */,
+				F8840B262B036E0300C840B2 /* SettingsLabelView.swift in Sources */,
+				F8840B142B02FEBE00C840B2 /* TownModel.swift in Sources */,
+				F8840B2A2B03773300C840B2 /* TownResourcesView.swift in Sources */,
+				F8840B182B0338BA00C840B2 /* TownRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F819A6542B023E640016690C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F819A6552B023E640016690C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F819A6572B023E640016690C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TownQuest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.anishagarwal.TownQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F819A6582B023E640016690C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TownQuest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.anishagarwal.TownQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F819A6432B023E600016690C /* Build configuration list for PBXProject "TownQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F819A6542B023E640016690C /* Debug */,
+				F819A6552B023E640016690C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F819A6562B023E640016690C /* Build configuration list for PBXNativeTarget "TownQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F819A6572B023E640016690C /* Debug */,
+				F819A6582B023E640016690C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F819A6402B023E600016690C /* Project object */;
+}
